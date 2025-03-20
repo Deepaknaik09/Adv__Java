@@ -6,7 +6,6 @@ public class Project1 {
         System.out.println("Enter a size of array");
         int n = sc.nextInt();
         List<Integer> arlist=new ArrayList<>();
-        int num[] = new int[n];
         System.out.println("Enter a number");
         for(int i=0;i<n;i++){
             arlist.add(sc.nextInt());
